@@ -1,0 +1,179 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+/*multiple selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 0;
+}
+
+.comment-app {
+  margin: 20px auto;
+  max-width: 640px;
+  width: 100%;
+}
+
+/*========================================================
+          Sections
+========================================================*/
+/*placing img to the right*/
+.media-object {
+  float: right;
+  margin-bottom: auto;
+}
+
+/*Line under title and subtitle*/
+header, .comment-title {
+  border-bottom: 3px solid #cec1c1;
+}
+
+/*Format subtitle "Comments"*/
+.comment-subtitle{
+  color: #cec1c1;
+  margin: 20px 0 5px;
+  text-align: right;
+}
+
+/*changing title  and Subtitle style*/
+h1 {
+  margin: 10px  0 0;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+h3 {
+  color: white;
+  margin: 20px 0 10px;
+  text-align: left;
+}
+
+/*Form area width*/
+.form-area, ul {
+  margin: 20px auto;
+  max-width: 550px;
+}
+
+/*Changing input box style*/
+input, textarea {
+  padding: 4px 10px;
+  margin: 0 auto;
+  width: 98%;
+  margin: 6px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.8);
+  color: black;
+}
+
+/*changing height of text area*/
+textarea {
+  height: 120px;
+}
+
+/*changing button box style*/
+#clickMe {
+  border-style: none;
+  background: #cec1c1;
+  border: none;
+  padding: 5px 20px;
+  color: white;
+  font-weight: 200;
+  border-radius: 6px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/*format text*/
+p {
+  padding: 10px 10px 0;
+}
+
+/*Formatting result's box*/
+.results {
+  color: black;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/*Top margin of comments*/
+.comment-list {
+  margin-top: 20px;
+}
+
+/*formatting list*/
+li {
+  list-style-type: none;
+  text-align: left;
+  background-color: transparent;
+}
+
+/*Formating each comment background*/
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+/*Add background comment depending on even or odd features*/
+.color1 {
+  background-color: red;
+  border-radius: 6px;
+}
+.color2 {
+  background-color:  orange;
+  border-radius: 6px;
+}
+
+/*Formatting images*/
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+/*Comment Text*/
+.userText1 {
+  color: #555f77;
+  font-size: 15px;
+  margin-bottom: 33px;
+}
+
+/*User and message information*/
+.userText2 {
+  color: rgba(38, 38, 38, 0.6);
+  font-size: 13px;
+}
+
+/*Editing message information*/
+span {
+  padding: 10px 10px 0;
+  float: left;
+}
+
+/*Formatting delete button*/
+.delete-button, .comment-button {
+  float: right;
+  background: transparent;
+  border: none;
+  margin: 10px 10px 0;
+  padding: 3px 5px;
+  color: rgba(38, 38, 38, 0.6);
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+/*Change button once it is hover over*/
+.delete-button:hover, .comment-button:hover {
+  background-color: rgba(3, 169, 244, 0.3);
+}
